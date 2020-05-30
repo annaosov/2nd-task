@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+}
+
+.headers-footers__group {
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-top: 0px;
+
+    background-image: url("../img/group.png");
+    height: 48px;
+    width: 48px;
+}
