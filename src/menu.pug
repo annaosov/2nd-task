@@ -1,4 +1,6 @@
+
 nav.menu
+
 ul.menu-list.js-menu-button
 -
   let menu = [
@@ -11,9 +13,9 @@ ul.menu-list.js-menu-button
   ]
 -let isPage = 0;
 each element,i in menu
- if isPage = i
-  li.menu-list-element.is-active
-   a(href=element.url, class='menu-list-element-a') #{element.text}
- else
-  li.menu-list-element
-   a(href=element.url, class='menu-list-element-a') #{element.text}
+  if isPage = i
+   li.menu-list-element.is-active
+    a(href=element.url, class='menu-list-element-a') #{element.text}
+  else
+   li.menu-list-element
+    a(href=element.url, class='menu-list-element-a') #{element.text}

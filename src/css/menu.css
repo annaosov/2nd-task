@@ -9,28 +9,18 @@
 body {
   margin: 0px;
 }
-
-.header {
-    margin-left: 30px;
-    margin-top: 30px;
-    padding-left: 0px;
-    padding-top: 0px;
-
-    background-image: url("../img/group.png");
-    height: 48px;
-    width: 48px;
-}
  
+
+
 .menu-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: 15 px 0 15px 0;
-    
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: 15 px 0 15px 0;
 }
 
 .menu-list-element {
-    padding: 15 px 0 15px 0;
+  padding: 15 px 0 15px 0;
 }
 
 .menu-list-element.is-active {
@@ -38,8 +28,8 @@ body {
 }
 
 .menu-list-element-a {
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-stretch: expanded;
-    color: rgba(31, 32, 65, 0.75);
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-stretch: expanded;
+  color: rgba(31, 32, 65, 0.75);
 }
