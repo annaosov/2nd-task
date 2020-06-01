@@ -2,22 +2,33 @@ const path = require('path')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 
+const PATH = {
+  src: path.join(__dirname, 'src'),
+  dist: path.join(__dirname, 'dist')
+};
+
 module.exports = {
-  context: path.resolve(__dirname, 'src'),
   mode: 'development',
-    entry: './index.js',
+    entry: './src/index.js',
     output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        filename: 'index.js',
+        path: path.resolve(__dirname, './dist')
     },
     plugins: [
       new HTMLWebpackPlugin({
-        template: './header.html'
+        template: './src/index.pug'
       }),
       new CleanWebpackPlugin()
     ],
     module: {
       rules: [
+        {
+          test: /\.pug$/,
+          loader: 'pug-loader',
+          options: {
+            pretty: true
+          }
+        },
         {
           test: /\.css$/,
           use: ['style-loader', 'css-loader']
