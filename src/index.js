@@ -1,2 +1,2 @@
-import './css/headers-footers__group.css'
+import './css/header.css'
 /*import Logo from './img/group.png'*/

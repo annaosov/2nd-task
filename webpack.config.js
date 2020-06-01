@@ -12,7 +12,7 @@ module.exports = {
     },
     plugins: [
       new HTMLWebpackPlugin({
-        template: './headers-footers__group.html'
+        template: './header.html'
       }),
       new CleanWebpackPlugin()
     ],

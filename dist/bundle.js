@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "../node_modules/css-loader/dist/cjs.js!./css/headers-footers__group.css":
-/*!*******************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js!./css/headers-footers__group.css ***!
-  \*******************************************************************************/
+/***/ "../node_modules/css-loader/dist/cjs.js!./css/header.css":
+/*!***************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!./css/header.css ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../img/group.png */ \"./img/group.png\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \"body {\\r\\n    margin: 0px;\\r\\n}\\r\\n\\r\\n.headers-footers__group {\\r\\n    margin-left: 30px;\\r\\n    margin-top: 30px;\\r\\n    padding-left: 0px;\\r\\n    padding-top: 0px;\\r\\n\\r\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n    height: 48px;\\r\\n    width: 48px;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./css/headers-footers__group.css?../node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../img/group.png */ \"./img/group.png\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \"body {\\r\\n    margin: 0px;\\r\\n}\\r\\n\\r\\n.header {\\r\\n    margin-left: 30px;\\r\\n    margin-top: 30px;\\r\\n    padding-left: 0px;\\r\\n    padding-top: 0px;\\r\\n\\r\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\r\\n    height: 48px;\\r\\n    width: 48px;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./css/header.css?../node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -133,14 +133,14 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
-/***/ "./css/headers-footers__group.css":
-/*!****************************************!*\
-  !*** ./css/headers-footers__group.css ***!
-  \****************************************/
+/***/ "./css/header.css":
+/*!************************!*\
+  !*** ./css/header.css ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./headers-footers__group.css */ \"../node_modules/css-loader/dist/cjs.js!./css/headers-footers__group.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./css/headers-footers__group.css?");
+eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./header.css */ \"../node_modules/css-loader/dist/cjs.js!./css/header.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./css/header.css?");
 
 /***/ }),
 
@@ -164,7 +164,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_headers_footers_group_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/headers-footers__group.css */ \"./css/headers-footers__group.css\");\n/* harmony import */ var _css_headers_footers_group_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_headers_footers_group_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\n/*import Logo from './img/group.png'*/\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_header_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/header.css */ \"./css/header.css\");\n/* harmony import */ var _css_header_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_header_css__WEBPACK_IMPORTED_MODULE_0__);\n\r\n/*import Logo from './img/group.png'*/\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ })
 
