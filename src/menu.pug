@@ -1,6 +1,6 @@
 nav.nav
     img(src=require('./img/logo.png').default)
-    - const items = ['Home', 'About us', 'Our Approch', 'Our Work']
+    - const items = ['Home', 'About us', 'Services', 'Careers', 'News', 'Documentation']
     each item in items
         if item === 'Home'
             a.nav__link.nav__link--active(href="#")= item
