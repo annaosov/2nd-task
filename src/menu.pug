@@ -1,5 +1,24 @@
 nav.nav
-    img(src=require('./img/logo.png').default)
+  img(src=require('./img/logo.png').default)
+  ul.groupNavBar
+    li
+      a.bold(href='/home') Home
+    li
+      a(href='/aboutUs') About Us
+    li
+      a(href='/services')
+        select.list
+          option Services
+    li
+      a(href='/careers') Careers
+    li
+      a(href='/news') News
+    li
+      a(href='/documentation') Documentation
+  button#login.buttonLogin LOGIN
+  button#register.buttonRegister(href='/register') REGISTER
+
+//-
     - const items = ['Home', 'About us', 'Services', 'Careers', 'News', 'Documentation']
     each item in items
         if item === 'Home'
