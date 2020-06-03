@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Поиск номеров в отеле</title>
-    <style>@font-face {
+    <style>
+      @font-face {
 	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat-Medium.eot');
 	src: local('☺'), url('../fonts/Montserrat-Medium.woff') format('woff'), url('../fonts/Montserrat-Medium.ttf') format('truetype'), url('../fonts/Montserrat-Medium.svg') format('svg');
@@ -147,7 +148,20 @@ div {
   font-stretch: expanded;
   color: rgba(31, 32, 65, 0.75);
 }*/
+      .footer-bar__footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 443px;
+  margin-bottom: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
 
+.footer__group-logo {
+  margin-left: 140px;
+  margin-top: 100px;
+}
     </style>
   </head>
   <body>
@@ -181,5 +195,10 @@ div {
   </ul>
   <div>Cosmin Negoita</div>
 </nav>
+<footer class="footer-bar__footer">
+  <div class="footer__group-logo"><img src="018749cff649d0bc3418815434bd26af.png">
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.</p>
+  </div>
+</footer>
   <script src="index.js"></script></body>
 </html>

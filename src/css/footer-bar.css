@@ -1,0 +1,14 @@
+.footer-bar__footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 443px;
+  margin-bottom: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+
+.footer__group-logo {
+  margin-left: 140px;
+  margin-top: 100px;
+}
