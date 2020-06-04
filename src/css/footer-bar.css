@@ -6,9 +6,60 @@
   margin-bottom: 40px;
   background: #FFFFFF;
   box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+  font-family: 'Montserrat', sans-serif;
+  font-stretch: expanded;
+  letter-spacing: 0.3px;
 }
 
-.footer__group-logo {
+.footer__logo {
   margin-left: 140px;
   margin-top: 100px;
+}
+
+.footer__logo p {
+  width: 260px;
+  height: 96px;
+  display: block;
+  margin-block-start: 14px;
+  margin-block-end: 0px;
+}
+
+.footer__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.footer-bar__footer li{
+  list-style-type: none;
+  
+}
+
+.footer__header {
+  margin-bottom: 21px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1F2041;
+  letter-spacing: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.footer__nav, .footer__about, .footer__support, .footer__subscribe {
+  margin-top: 104px;
+}
+
+.footer__nav a, .footer__about a, .footer__support a {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.footer__subscribe {
+  margin-right: 192px;
+  width: 208px;
 }
