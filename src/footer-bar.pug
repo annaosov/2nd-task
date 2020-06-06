@@ -1,10 +1,10 @@
-footer.footer-bar__footer
-    div.footer__logo
+footer.footer-bar
+    div.footer-bar__logo
       img(src=require('./img/logo.png').default)
-      p.footer__text Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.
-    div.footer__nav
+      p.footer-bar__text Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.
+    div.footer-bar__nav
       li
-        p.footer__header Navigation
+        p.footer-bar__header Navigation
       li
         a(href='/aboutUs') About Us
       li
@@ -13,9 +13,9 @@ footer.footer-bar__footer
         a(href='/support') Support
       li
         a(href='/products') Products
-    div.footer__about
+    div.footer-bar__about
       li
-        p.footer__header About Us
+        p.footer-bar__header About Us
       li
         a(href='/aboutUs') Who we are
       li
@@ -24,18 +24,18 @@ footer.footer-bar__footer
         a(href='/support') Careers
       li
         a(href='/products') Investors
-    div.footer__support
+    div.footer-bar__support
       li
-        p.footer__header Support
+        p.footer-bar__header Support
       li
         a(href='/aboutUs') Documentation
       li
         a(href='/news') Community
       li
         a(href='/support') Get in Touch
-    div.footer__subscribe
-      p.footer__header Subscribe to our newsletter
-      p.footer__text Receive our latest news and promotions in your inbox!
+    div.footer-bar__subscribe
+      p.footer-bar__header Subscribe to our newsletter
+      p.footer-bar__text Receive our latest news and promotions in your inbox!
       form.subscription(action='#', method='post')
         input.subscription-email(type='email', placeholder='Your email address', required='')
         button.subscription-button(type='submit') 
