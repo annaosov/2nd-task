@@ -148,7 +148,7 @@
   font-stretch: expanded;
   color: rgba(31, 32, 65, 0.75);
 }*/
-      .footer-bar__footer {
+      .footer-bar {
   display: flex;
   justify-content: center;
   width: 1440px;
@@ -161,18 +161,18 @@
   letter-spacing: 0.4px;
 }
 
-.footer__logo {
+.footer-bar__logo {
   margin-left: 140px;
   margin-top: 100px;
   width: 260px;
   height: 156px;
 }
 
-.footer__logo img {
+.footer-bar__logo img {
   margin-bottom: 14px;
 }
 
-.footer__logo p {
+.footer-bar__logo p {
   width: 260px;
   height: 96px;
   display: block;
@@ -180,7 +180,7 @@
   margin-block-end: 0px;
 }
 
-.footer__text {
+.footer-bar__text {
   margin-top: -4px;
   margin-bottom: 23px;
   font-size: 14px;
@@ -188,12 +188,12 @@
   color: rgba(31, 32, 65, 0.75);
 }
 
-.footer-bar__footer li{
+.footer-bar li{
   list-style-type: none;
   
 }
 
-.footer__header {
+.footer-bar__header {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
@@ -205,11 +205,11 @@
   margin-block-end: 21px;
 }
 
-.footer__nav, .footer__about, .footer__support, .footer__subscribe {
+.footer-bar__nav, .footer-bar__about, .footer-bar__support, .footer-bar__subscribe {
   margin-top: 104px;
 }
 
-.footer__nav a, .footer__about a, .footer__support a {
+.footer-bar__nav a, .footer-bar__about a, .footer-bar__support a {
   display: block;
   margin-block-start: 0px;
   margin-block-end: 20px;
@@ -219,25 +219,25 @@
   color: rgba(31, 32, 65, 0.5);
 }
 
-.footer__nav {
+.footer-bar__nav {
   width: 81px;
   height: 168px;
   margin-left: 40px;
 }
 
-.footer__about {
+.footer-bar__about {
   width: 82px;
   height: 168px;
   margin-left: 119px;
 }
 
-.footer__support {
+.footer-bar__support {
   width: 113px;
   height: 130px;
   margin-left: 118px;
 }
 
-.footer__subscribe {
+.footer-bar__subscribe {
   margin-right: 192px;
   width: 208px;
   height: 84px;
@@ -282,6 +282,7 @@
 .footer-bar__copyright-bar {
   width: 1440px;
   height: 70px;
+  margin-bottom: 40px;
   background: #FFFFFF;
   box-shadow: 0px -10px 0px -9px rgba(31, 32, 65, 0.05);
   display: flex;
@@ -310,6 +311,48 @@
 
 .footer-bar__margin {
   margin-right: 140px;
+}.footer-creative {
+  width: 1440px;
+  height: 367px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.footer-creative__logo {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 105.69px;
+  height: 40px;
+  text-align: center;
+}
+
+.footer-creative__text {
+  width: 560px;
+  height: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-stretch: expanded;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.75);
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 25px;
+}
+
+.footer-creative__margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-creative__icons {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
     </style>
   </head>
@@ -344,39 +387,39 @@
   </ul>
   <div class="user">Cosmin Negoita</div>
 </nav>
-<footer class="footer-bar__footer">
-  <div class="footer__logo"><img src="018749cff649d0bc3418815434bd26af.png">
-    <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.</p>
+<footer class="footer-bar">
+  <div class="footer-bar__logo"><img src="018749cff649d0bc3418815434bd26af.png">
+    <p class="footer-bar__text">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.</p>
   </div>
-  <div class="footer__nav">
+  <div class="footer-bar__nav">
     <li>
-      <p class="footer__header">Navigation</p>
+      <p class="footer-bar__header">Navigation</p>
     </li>
     <li><a href="/aboutUs">About Us</a></li>
     <li><a href="/news">News</a></li>
     <li><a href="/support">Support</a></li>
     <li><a href="/products">Products</a></li>
   </div>
-  <div class="footer__about">
+  <div class="footer-bar__about">
     <li>
-      <p class="footer__header">About Us</p>
+      <p class="footer-bar__header">About Us</p>
     </li>
     <li><a href="/aboutUs">Who we are</a></li>
     <li><a href="/news">Our team</a></li>
     <li><a href="/support">Careers</a></li>
     <li><a href="/products">Investors</a></li>
   </div>
-  <div class="footer__support">
+  <div class="footer-bar__support">
     <li>
-      <p class="footer__header">Support</p>
+      <p class="footer-bar__header">Support</p>
     </li>
     <li><a href="/aboutUs">Documentation</a></li>
     <li><a href="/news">Community</a></li>
     <li><a href="/support">Get in Touch</a></li>
   </div>
-  <div class="footer__subscribe">
-    <p class="footer__header">Subscribe to our newsletter</p>
-    <p class="footer__text">Receive our latest news and promotions in your inbox!</p>
+  <div class="footer-bar__subscribe">
+    <p class="footer-bar__header">Subscribe to our newsletter</p>
+    <p class="footer-bar__text">Receive our latest news and promotions in your inbox!</p>
     <form class="subscription" action="#" method="post">
       <input class="subscription-email" type="email" placeholder="Your email address" required="">
       <button class="subscription-button" type="submit"> <img src="c415e320365e103511bda99999972cc1.png"></button>
@@ -385,20 +428,11 @@
 </footer>
 <footer class="footer-bar__copyright-bar">
   <p>Copyright © 2018 Toxin UI Kit. All rights reserved.</p><img src="6bf54387ab7f658a1db08715feba688e.png"><img src="b45f88fcaa9388b9aac465408356b0ad.png"><img class="footer-bar__margin" src="a96289ddacce63f6370373aa714e915d.png">
-</footer>let page = document.querySelector('.page');
-let themeButton = document.querySelector('.theme-button');
-themeButton.onclick = function() {
-  page.classList.toggle('light-theme');
-  page.classList.toggle('dark-theme');
-};
-
-let message = document.querySelector('.subscription-message');
-let form = document.querySelector('.subscription');
-let email = document.querySelector('.subscription-email');
-
-form.onsubmit = function(evt) {
-  evt.preventDefault();
-  message.textContent = email.value;
-};
+</footer>
+<footer class="footer-creative">
+  <p class="footer-creative__logo"><img src="018749cff649d0bc3418815434bd26af.png"></p>
+  <p class="footer-creative__text">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.</p>
+  <p class="footer-creative__icons"><img src="6bf54387ab7f658a1db08715feba688e.png"><img class="footer-creative__margin" src="b45f88fcaa9388b9aac465408356b0ad.png"><img src="a96289ddacce63f6370373aa714e915d.png"></p>
+</footer>
   <script src="index.js"></script></body>
 </html>
