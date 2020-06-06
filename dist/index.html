@@ -152,8 +152,8 @@
   display: flex;
   justify-content: center;
   width: 1440px;
-  height: 443px;
-  margin-bottom: 40px;
+  height: 372px;
+  margin-bottom: 0px;
   background: #FFFFFF;
   box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
   font-family: 'Montserrat', sans-serif;
@@ -279,7 +279,38 @@
   color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 }
 
+.footer-bar__copyright-bar {
+  width: 1440px;
+  height: 70px;
+  background: #FFFFFF;
+  box-shadow: 0px -10px 0px -9px rgba(31, 32, 65, 0.05);
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
 
+.footer-bar__copyright-bar p {
+  width: 332px;
+  height: 18px;
+  margin-left: 140px;
+  flex-grow: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-stretch: expanded;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.footer-bar__copyright-bar img {
+  width: 22px;
+  height: 22px;
+  margin-left: 22px;
+}
+
+.footer-bar__margin {
+  margin-right: 140px;
+}
     </style>
   </head>
   <body>
@@ -351,6 +382,9 @@
       <button class="subscription-button" type="submit"> <img src="c415e320365e103511bda99999972cc1.png"></button>
     </form>
   </div>
+</footer>
+<footer class="footer-bar__copyright-bar">
+  <p>Copyright © 2018 Toxin UI Kit. All rights reserved.</p><img src="6bf54387ab7f658a1db08715feba688e.png"><img src="b45f88fcaa9388b9aac465408356b0ad.png"><img class="footer-bar__margin" src="a96289ddacce63f6370373aa714e915d.png">
 </footer>let page = document.querySelector('.page');
 let themeButton = document.querySelector('.theme-button');
 themeButton.onclick = function() {
