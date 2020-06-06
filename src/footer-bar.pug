@@ -36,3 +36,7 @@ footer.footer-bar__footer
   div.footer__subscribe
     p.footer__header Subscribe to our newsletter
     p.footer__text Receive our latest news and promotions in your inbox!
+    form.subscription(action='#', method='post')
+      input.subscription-email(type='email', placeholder='Your email address', required='')
+      button.subscription-button(type='submit') 
+        img(src=require('./img/arrow.png').default)
